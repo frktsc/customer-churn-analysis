@@ -39,7 +39,7 @@ docker pull frktsc/myapp:latest
 Once the Docker image is built, you can run the Customer Churn app in a Docker container using the following command:
 
 ```bash
-docker run -p 5000:5000 myapp
+docker run -p 5000:5000 myapp:latest
 ```
 
 This command starts a Docker container based on the "myapp" image and maps port 5000 from the container to port 5000 on your host machine. You can access the Customer churn analysis by opening a web browser and navigating to `http://localhost`.
@@ -49,7 +49,7 @@ This command starts a Docker container based on the "myapp" image and maps port 
 If port 5000 is already in use on your host machine, you can choose a different available port by modifying the `-p` option. For example, to use port 8080 on your host, you can run:
 
 ```bash
-docker run -p 8080:80 myapp
+docker run -p 8080:80 myapp:latest
 ```
 
 Click [here](https://churn-analysis-99.streamlit.app/) to experience app
