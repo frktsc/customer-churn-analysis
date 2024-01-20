@@ -26,14 +26,13 @@ This project is a machine development application developed to predict customer 
 
 Before you begin, make sure you have Docker installed on your system. You can download and install Docker from the [official Docker website](https://www.docker.com/get-started).
 
-## Building the Docker Image
+## Pulling the Docker Image
 
-To build the Docker image for the Customer Churn App, use the following command:
+Pulling the Docker Image: The user can pull the Docker image of your project with the  command via Docker Hub.
 
 ```bash
-docker build -t myapp .
+docker pull frktsc/myapp:latest
 ```
-This command will build a Docker image with the name "myapp" using the Dockerfile located in the current directory (`.`). Be sure to run this command in the same directory as your Dockerfile.
 
 ## Running the Docker Container
 
