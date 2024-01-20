@@ -28,7 +28,7 @@ Before you begin, make sure you have Docker installed on your system. You can do
 
 ## Building the Docker Image
 
-To build the Docker image for the Bank Marketing App, use the following command:
+To build the Docker image for the Customer Churn App, use the following command:
 
 ```bash
 docker build -t myapp .
